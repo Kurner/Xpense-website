@@ -5,6 +5,11 @@ body
     padding: 0;
 }
 
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
 header
 {
     margin: 0 auto;
@@ -12,13 +17,13 @@ header
     margin-bottom:120px;
 }
 
-nav{
+nav
+{
     max-width: 82%;
     margin: 40px auto 75px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 nav li
@@ -43,6 +48,12 @@ nav li
     border: 1px solid;
     border-radius: 8px;
     padding: 12px 16px 12px 16px;
+}
+
+.navRight:hover
+{
+    color: white;
+    background-color: rgba(194, 143, 49, 0.808);
 }
 
 .cross
@@ -270,6 +281,11 @@ nav li
     width: 12%;
 }
 
+.buttonGetThis:hover
+{
+    color:white;
+    background-color:rgb(243, 121, 7); ;
+}
 /* SECTION 4 */
 
 .containerSection4
