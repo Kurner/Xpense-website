@@ -36,6 +36,11 @@ nav li
 
 /* NAV */
 
+.hrResponsive
+{
+    display: none;
+}
+
 .navLeft
 {
     display: inline;
@@ -469,3 +474,138 @@ hr
     width: 27px;
 }
 /* #id */
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 810px) {
+
+    body
+    {
+        max-width: 90vw;
+    }
+  
+    /* HEADER */
+    header
+    {
+        margin-bottom: 85px;
+    }
+
+    .contentHeader
+    {
+        display: block;
+    }
+
+    .textHeader
+    {
+        width: 240px;
+    }
+
+    .bolderText
+    {
+        font-size: 40px;
+    }
+
+    .buttonDemoContent
+    {
+        display: block;
+        width: 90%;
+    }
+
+    .buttonDemo
+    {    
+        padding: 12px;
+    }
+
+    .textButtonDemo
+    {
+        font-size: x-large;
+    }
+
+    /* SECTION */
+
+    .img1, .containerSection2>img
+    {
+        display: none;
+    }
+
+    .containerSection2
+    {
+        margin-bottom: 100px;
+    }
+
+    .statsSection
+    {
+        display: none;
+    }
+
+    .box
+    {
+        flex-direction: column;
+    }
+
+    .box1, .box2, .box3
+    {      
+        padding: 40px 60px 45px 30px;
+        width: 52%;
+        margin-bottom: 15px; 
+    }
+
+    hr
+    {
+        max-width: 96%;
+        margin-bottom: 25px;
+        opacity: 25%;
+    }
+
+    .containerSection3 
+    {
+        margin-bottom: 80px;
+    }
+
+    .bolderTextSection4 
+    {
+        margin-left: 15px;
+        font-size: 32px;
+    }
+
+    .subTextSection4 
+    {
+        margin-left: 15px;
+        font-size: 30px;
+    }
+
+    .containerSection4
+    {
+        padding-bottom: 145px;
+    }
+
+    .containerSection4 img
+    {
+        display: none;
+    }
+
+    .containerSection4 .buttonDemo
+    {
+        margin-left: 40px;
+    }
+
+    .containerFooter
+    {
+        margin-left: -3px;
+    }
+
+    .footerPense
+    {
+        display: none;
+    }
+
+    .newsletter, .links, .legal 
+    {
+        padding-left: 40px;
+    }
+
+    .newsletter
+    {
+        display: none;
+    }
+}
