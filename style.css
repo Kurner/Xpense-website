@@ -398,7 +398,7 @@ nav li
 }
 
 .email
-{
+{    
     border: 1px solid black;
     color:black;
     border-radius: 6px;
@@ -410,19 +410,32 @@ nav li
     margin-bottom: 10px;
 }
 
-.subscribe
+input
+{
+    font-size: medium;
+    border: none;
+}
+
+label
 {
     color: white;
-    margin-left: 70px;
     background-color: rgb(243, 121, 7);
     border: solid rgb(243, 121, 7);
     border-radius: 6px;
     padding: 12px 15px 10px 16px;
 }
 
-.contentNewsletter span
+.textNewsletter
 {
-    font-size: smaller;
+    font-size: unset;
+}
+
+.textNewsletterBottom
+{
+    font-size: small;
+    margin-top: 15px;
+    color:#c0c0c0;
+    font-weight: normal;
 }
 
 hr
