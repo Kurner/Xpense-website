@@ -414,6 +414,7 @@ input
 {
     font-size: medium;
     border: none;
+    outline: none;
 }
 
 label
